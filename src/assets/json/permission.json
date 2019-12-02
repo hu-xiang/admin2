@@ -1,0 +1,178 @@
+[
+    {
+        "path": "/workBench",
+        "name": "工作台",
+        "children": [
+            {
+                "path": "/myApplication",
+                "name": "我的申请"
+            },
+            {
+                "path": "/myApproval",
+                "name": "我的审批"
+            },
+            {
+                "path": "/approvalQuery",
+                "name": "审批查询"
+            },
+            {
+                "path": "/news",
+                "name": "消息公告"
+            }
+        ]
+    },
+    {
+        "path": "/travelApply",
+        "name": "出差申请",
+        "children": [
+            {
+                "path": "/travelEntry",
+                "name": "出差申请录入"
+            },
+            {
+                "path": "/travelQuery",
+                "name": "出差申请查询"
+            }
+        ]
+    },
+    {
+        "path": "/reimbursement",
+        "name": "费用报销",
+        "children": [
+            {
+                "path": "/feeEntry",
+                "name": "费用报销录入"
+            },
+            {
+                "path": "/feeQuery",
+                "name": "费用报销查询"
+            }
+        ]
+    },
+    {
+        "path": "/budgetManage",
+        "name": "预算管理",
+        "children": [
+            {
+                "path": "/budgetEntry",
+                "name": "预算录入"
+            },
+            {
+                "path": "/budgetChange",
+                "name": "预算调整"
+            },
+            {
+                "path": "/budgetApproval",
+                "name": "预算审批"
+            },
+            {
+                "path": "/rightSetting",
+                "name": "审批签权设定"
+            },
+            {
+                "path": "/transSetting",
+                "name": "出差交通费设定"
+            },
+            {
+                "path": "/subsidySetting",
+                "name": "出差补助设定"
+            },
+            {
+                "path": "/liveSetting",
+                "name": "出差住宿费设定"
+            },
+            {
+                "path": "/classMaintenance",
+                "name": "预算类别维护"
+            }
+        ]
+    },
+    {
+        "path": "/reportAnalysis",
+        "name": "报表分析",
+        "children": [
+            {
+                "path": "/budget",
+                "name": "预算执行状况"
+            },
+            {
+                "path": "/fee",
+                "name": "费用报销明细"
+            },
+            {
+                "path": "/travel",
+                "name": "出差申请明细"
+            }
+        ]
+    },
+    {
+        "path": "/personInfo",
+        "name": "人事资料",
+        "children": [
+            {
+                "path": "/userInfo",
+                "name": "人员信息"
+            },
+            {
+                "path": "/depart",
+                "name": "部门组织结构"
+            },
+            {
+                "path": "/rank",
+                "name": "职级维护"
+            },
+            {
+                "path": "/position",
+                "name": "岗位维护"
+            },
+            {
+                "path": "/role",
+                "name": "角色管理",
+                "children": [
+                    {
+                        "path": "/role",
+                        "name": "角色列表"
+                    },
+                    {
+                        "path": "/roleAdd",
+                        "name": "新增角色"
+                    },
+                    {
+                        "path": "/roleEdit",
+                        "name": "编辑角色"
+                    },
+                    {
+                        "path": "/roleDelete",
+                        "name": "删除角色"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "path": "/sysManage",
+        "name": "系统管理",
+        "children": [
+            {
+                "path": "/globalData",
+                "name": "系统全局参数设定"
+            },
+            {
+                "path": "/comCode",
+                "name": "公司代码维护"
+            },
+            {
+                "path": "/accountSubject",
+                "name": "会计科目维护"
+            },
+            {
+                "path": "/costCenter",
+                "name": "成本中心维护"
+            },
+            {
+                "path": "/zone",
+                "name": "地区区域维护"
+            }
+        ]
+    }
+]
